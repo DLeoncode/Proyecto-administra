@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Administra Soft</title>
+
+    <link rel="stylesheet" href="../public/css/Fonts.css" />
+    <link rel="stylesheet" href="../public/css/Style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="titulo">
+        <img src="../public/images/Logo/Logo.png" alt="Logo" id="logo" />
+        <h1 id="Administra">Administra Soft</h1>
+      </div>
+
+      <!--Menu-->
+      <div class="menu">
+        <nav>
+          <ul>
+            <li>
+              <a href="#" onclick="cambiar('./html/Administra.html')">
+                Administra Soft</a
+              >
+            </li>
+            <li><a href="#Info">Acerca del Proyecto</a></li>
+            <li>
+              <a href="Index.html"
+                ><img
+                  src="../public/images/Iconos/Oscuros/home.png"
+                  alt="Inicio"
+              /></a>
+            </li>
+            <li>
+              <a href="#" onclick="cambiar('./Registrate.html')">
+                Registrate</a>
+            </li>
+            <li>
+              <a href="#" onclick="cambiar('./Inicio Sesion.html')">
+                Inicia Sesión</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <iframe
+        id="milframe"
+        src="../public/html/Administra.html"
+        frameborder="0"
+      ></iframe>
+    </main>
+    <footer id="Info">
+      <section class="Informacion">
+        <h3>Acerca del Proyecto</h3>
+        <hr />
+        <br />
+        <section id="Infoc">
+          <div class="Infoc1">
+            <h3>Proyecto</h3>
+
+            <span>
+              <h4>Nombre del Proyecto</h4>
+              <p>Administra Soft</p>
+              <h4>Presentado por</h4>
+              <p>Diego Alexander Leon Robayo</p>
+              <h4>Ficha No.</h4>
+              <p>2675793</p>
+            </span>
+          </div>
+
+          <div class="Infoc1">
+            <h3>Tecnólogo</h3>
+
+            <span>
+              <h4>Programa</h4>
+              <p>Tecnólogo Análisis y Desarrollo de Software</p>
+              <h4>Institución</h4>
+              <p>Servicio Nacional de Aprendizaje - SENA</p>
+              <p>2024</p>
+            </span>
+          </div>
+        </section>
+      </section>
+    </footer>
+
+    <script src="../public/js/app.js"></script>
+  </body>
+</html>

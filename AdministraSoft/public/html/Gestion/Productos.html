@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Proveedores</title>
+    <link rel="stylesheet" href="../../css/Fonts.css"/>
+    <link rel="stylesheet" href="../../css/Gestion.css">
+</head>
+<body>
+    <section>
+
+        <section>
+            <h2>Gestión de Productos</h2> <hr> <br>
+            <div>
+
+                <form action="../../../data base/productos.php" method="post">
+
+                    <label for="Codigo">Codigo</label> <br />
+                    <input type="codigo" id="codigo" name="codigo" required /> <br />
+
+                    <label for="Nombre">Nombre</label> <br />
+                    <input type="nombre" id="nombre" name="nombre" required /> <br />
+
+                    <label for="Descripción">Descripción</label><br />
+                    <input type="descripcion" id="descripcion" name="descripcion" required /><br />
+
+                    <label for="Categoria">Categoria</label><br />
+                    <input type="categoria" id="categoria" name="categoria" required /><br />
+
+                    <br>
+                    
+                    <button type="submit" name="agregar" id="button">Agregar producto</button>
+
+                </form>
+
+            </div>
+            
+        </section>
+        <section>
+
+        </section>
+    </section>
+</body>
+</html>

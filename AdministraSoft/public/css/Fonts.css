@@ -1,0 +1,8 @@
+/*Fuentes*/
+
+
+@font-face 
+        {font-family: Libre_Baskerville;
+        src: url(../fonts/LibreBaskerville-Italic.ttf);
+        font-style:italic;
+        font-weight:bold;}

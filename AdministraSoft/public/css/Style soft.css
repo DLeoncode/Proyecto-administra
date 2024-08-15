@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: inline-block;
+  position: sticky;
+  z-index: 4;
+  width: 100%;
+  background-image: url(../images/Back-ground/encabezado.jpg);
+}
+.titulo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Libre_Baskerville;
+  padding: 3px 10px;
+  color: aliceblue;
+  width: 100%;
+}
+
+.titulo img {
+  width: 50%;
+  min-height: 50%;
+}
+
+#Administra {
+  margin-left: 5px;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  text-align: center;
+  padding: 1%;
+  background-color: #ebf0f4;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  display: inline-flex;
+  align-items: center;
+}
+
+.menu img {
+  display: block;
+  width: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#logo {
+  width: 10%;
+}
+
+.Informacion {
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+footer {
+  background: -webkit-linear-gradient(0deg, #6888a1, #182273);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: azure;
+}
+p {
+  margin-top: 5px;
+  line-height: 1.2;
+}
+
+/*Hover*/
+
+li :hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 500px;
+  border: 0;
+}

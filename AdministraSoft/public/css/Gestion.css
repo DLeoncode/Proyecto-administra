@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    font-family: libre_Baskerville;
+    text-align: center;
+    color: rgb(0, 3, 5);
+    font-size: 20px;
+    margin-top: 5%;
+  }
+
+ button {
+    width: 70%;
+    padding: 3%;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-left: 20%;
+    background-color: #3c5974;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+  }
+  
+  #button:hover{background-color: #83a38b; color: Lavender;}
+  #button:active{transform: scale(0.98);}
+  #button:focus{outline: none;
+  box-shadow: 0 0 0 2px rgba(3, 56, 29, 0.644);}
+  
+
+  input,
+  textarea {
+    outline: none;
+    color: rgb(0, 8, 15);
+    margin-bottom: 2%;
+    width: 95%;
+    border: none;
+    border-bottom: 0.11px solid rgb(37, 0, 0);
+    background-color: transparent;
+  }
+
+
+ 
